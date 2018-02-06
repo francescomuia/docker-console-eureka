@@ -1,0 +1,1 @@
+docker run -d -it --hostname=eurekaregistry.docker-console.it --name=eurekaregistry.docker-console.it --link=docker.console.config.it fmuiapps/docker-console-eureka

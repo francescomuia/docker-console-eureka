@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: webservice-registry
+  cloud:
+    config:
+      uri: http://docker.console.config.it:8888
+      fail-fast: true
+      username: root
+      password: s3cr3t
