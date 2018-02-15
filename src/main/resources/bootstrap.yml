@@ -7,3 +7,14 @@ spring:
       fail-fast: true
       username: root
       password: s3cr3t
+      
+---
+
+spring:
+  profiles: local
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
+      username: root
+      password: s3cr3t
